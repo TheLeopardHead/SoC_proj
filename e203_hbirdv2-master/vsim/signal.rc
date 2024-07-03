@@ -1,0 +1,498 @@
+Magic 271485
+Revision Verdi_O-2018.09-SP2
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort -10 26 2323 1211 209 163
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / -i 0 "" "/home/MicroE/e203/simulate/e203_hbirdv2-master/vsim/run/cnn/tb_top.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 102723094.758558 102827034.378351
+cursor 102402000.000000
+marker 0.000000
+
+; visible top row signal index
+top 393
+; marker line index
+markerPos 363
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/home/MicroE/e203/simulate/e203_hbirdv2-master/vsim/run/cnn/tb_top.fsdb"
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/clk
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 -holdScope cnn_icb_cmd_valid
+addSignal -h 15 -holdScope cnn_icb_cmd_ready
+addSignal -h 15 -holdScope cnn_icb_cmd_addr[31:0]
+addSignal -h 15 -holdScope cnn_icb_cmd_read
+addSignal -h 15 -holdScope cnn_icb_cmd_wdata[31:0]
+addSignal -h 15 -holdScope cnn_icb_cmd_wmask[3:0]
+addSignal -h 15 -holdScope cnn_icb_rsp_valid
+addSignal -h 15 -holdScope cnn_icb_rsp_ready
+addSignal -h 15 -holdScope cnn_icb_rsp_rdata[31:0]
+addSignal -h 15 -holdScope enable
+addSignal -h 15 -holdScope done
+addSignal -h 15 -holdScope clk
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 -holdScope cnn_icb_cmd_valid
+addSignal -h 15 -holdScope cnn_icb_cmd_ready
+addSignal -h 15 -holdScope cnn_icb_cmd_addr[31:0]
+addSignal -h 15 -holdScope cnn_icb_cmd_read
+addSignal -h 15 -holdScope cnn_icb_cmd_wdata[31:0]
+addSignal -h 15 -holdScope cnn_icb_cmd_wmask[3:0]
+addSignal -h 15 -holdScope cnn_icb_rsp_valid
+addSignal -h 15 -holdScope cnn_icb_rsp_ready
+addSignal -h 15 -holdScope cnn_icb_rsp_rdata[31:0]
+addSignal -h 15 -holdScope enable
+addSignal -h 15 -holdScope done
+addSignal -h 15 -holdScope clk
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 -holdScope cnn_icb_cmd_valid
+addSignal -h 15 -holdScope cnn_icb_cmd_ready
+addSignal -h 15 -holdScope cnn_icb_cmd_addr[31:0]
+addSignal -h 15 -holdScope cnn_icb_cmd_read
+addSignal -h 15 -holdScope cnn_icb_cmd_wdata[31:0]
+addSignal -h 15 -holdScope cnn_icb_cmd_wmask[3:0]
+addSignal -h 15 -holdScope cnn_icb_rsp_valid
+addSignal -h 15 -holdScope cnn_icb_rsp_ready
+addSignal -h 15 -holdScope cnn_icb_rsp_rdata[31:0]
+addSignal -h 15 -holdScope enable
+addSignal -h 15 -holdScope done
+addSignal -h 15 -holdScope clk
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 -holdScope cnn_icb_cmd_valid
+addSignal -h 15 -holdScope cnn_icb_cmd_ready
+addSignal -h 15 -holdScope cnn_icb_cmd_addr[31:0]
+addSignal -h 15 -holdScope cnn_icb_cmd_read
+addSignal -h 15 -holdScope cnn_icb_cmd_wdata[31:0]
+addSignal -h 15 -holdScope cnn_icb_cmd_wmask[3:0]
+addSignal -h 15 -holdScope cnn_icb_rsp_valid
+addSignal -h 15 -holdScope cnn_icb_rsp_ready
+addSignal -h 15 -holdScope cnn_icb_rsp_rdata[31:0]
+addSignal -h 15 -holdScope enable
+addSignal -h 15 -holdScope done
+addGroup "G2"
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/current_state[2:0]
+addSignal -h 15 -holdScope weight_addr_next[31:0]
+addSignal -h 15 -holdScope weight_addr_send_start
+addSignal -h 15 -holdScope weight_addr_send_cnt[3:0]
+addSignal -h 15 -holdScope weight_addr_send_done
+addSignal -h 15 -holdScope weight_data_rcpt_done
+addSignal -h 15 -holdScope weight_data_rcpt_cnt[3:0]
+addSignal -h 15 -holdScope cur_weight_00[31:0]
+addSignal -h 15 -holdScope cur_weight_01[31:0]
+addSignal -h 15 -holdScope cur_weight_02[31:0]
+addSignal -h 15 -holdScope cur_weight_03[31:0]
+addSignal -h 15 -holdScope cur_weight_10[31:0]
+addSignal -h 15 -holdScope cur_weight_11[31:0]
+addSignal -h 15 -holdScope cur_weight_12[31:0]
+addSignal -h 15 -holdScope cur_weight_13[31:0]
+addSignal -h 15 -holdScope cur_weight_20[31:0]
+addSignal -h 15 -holdScope cur_weight_21[31:0]
+addSignal -h 15 -holdScope cur_weight_22[31:0]
+addSignal -h 15 -holdScope cur_weight_23[31:0]
+addSignal -h 15 -holdScope cur_weight_30[31:0]
+addSignal -h 15 -holdScope cur_weight_31[31:0]
+addSignal -h 15 -holdScope cur_weight_32[31:0]
+addSignal -h 15 -holdScope cur_weight_33[31:0]
+addSignal -h 15 -holdScope in_weight_0[31:0]
+addSignal -h 15 -holdScope in_weight_1[31:0]
+addSignal -h 15 -holdScope in_weight_2[31:0]
+addSignal -h 15 -holdScope in_weight_3[31:0]
+addSignal -h 15 -holdScope current_state[2:0]
+addSignal -h 15 -holdScope weight_addr_next[31:0]
+addSignal -h 15 -holdScope weight_addr_send_start
+addSignal -h 15 -holdScope weight_addr_send_cnt[3:0]
+addSignal -h 15 -holdScope weight_addr_send_done
+addSignal -h 15 -holdScope weight_data_rcpt_done
+addSignal -h 15 -holdScope weight_data_rcpt_cnt[3:0]
+addSignal -h 15 -holdScope cur_weight_00[31:0]
+addSignal -h 15 -holdScope cur_weight_01[31:0]
+addSignal -h 15 -holdScope cur_weight_02[31:0]
+addSignal -h 15 -holdScope cur_weight_03[31:0]
+addSignal -h 15 -holdScope cur_weight_10[31:0]
+addSignal -h 15 -holdScope cur_weight_11[31:0]
+addSignal -h 15 -holdScope cur_weight_12[31:0]
+addSignal -h 15 -holdScope cur_weight_13[31:0]
+addSignal -h 15 -holdScope cur_weight_20[31:0]
+addSignal -h 15 -holdScope cur_weight_21[31:0]
+addSignal -h 15 -holdScope cur_weight_22[31:0]
+addSignal -h 15 -holdScope cur_weight_23[31:0]
+addSignal -h 15 -holdScope cur_weight_30[31:0]
+addSignal -h 15 -holdScope cur_weight_31[31:0]
+addSignal -h 15 -holdScope cur_weight_32[31:0]
+addSignal -h 15 -holdScope cur_weight_33[31:0]
+addSignal -h 15 -holdScope in_weight_0[31:0]
+addSignal -h 15 -holdScope in_weight_1[31:0]
+addSignal -h 15 -holdScope in_weight_2[31:0]
+addSignal -h 15 -holdScope in_weight_3[31:0]
+addSignal -h 15 -holdScope current_state[2:0]
+addSignal -h 15 -holdScope weight_addr_next[31:0]
+addSignal -h 15 -holdScope weight_addr_send_start
+addSignal -h 15 -holdScope weight_addr_send_cnt[3:0]
+addSignal -h 15 -holdScope weight_addr_send_done
+addSignal -h 15 -holdScope weight_data_rcpt_done
+addSignal -h 15 -holdScope weight_data_rcpt_cnt[3:0]
+addSignal -h 15 -holdScope cur_weight_00[31:0]
+addSignal -h 15 -holdScope cur_weight_01[31:0]
+addSignal -h 15 -holdScope cur_weight_02[31:0]
+addSignal -h 15 -holdScope cur_weight_03[31:0]
+addSignal -h 15 -holdScope cur_weight_10[31:0]
+addSignal -h 15 -holdScope cur_weight_11[31:0]
+addSignal -h 15 -holdScope cur_weight_12[31:0]
+addSignal -h 15 -holdScope cur_weight_13[31:0]
+addSignal -h 15 -holdScope cur_weight_20[31:0]
+addSignal -h 15 -holdScope cur_weight_21[31:0]
+addSignal -h 15 -holdScope cur_weight_22[31:0]
+addSignal -h 15 -holdScope cur_weight_23[31:0]
+addSignal -h 15 -holdScope cur_weight_30[31:0]
+addSignal -h 15 -holdScope cur_weight_31[31:0]
+addSignal -h 15 -holdScope cur_weight_32[31:0]
+addSignal -h 15 -holdScope cur_weight_33[31:0]
+addSignal -h 15 -holdScope in_weight_0[31:0]
+addSignal -h 15 -holdScope in_weight_1[31:0]
+addSignal -h 15 -holdScope in_weight_2[31:0]
+addSignal -h 15 -holdScope in_weight_3[31:0]
+addSignal -h 15 -holdScope current_state[2:0]
+addSignal -h 15 -holdScope weight_addr_next[31:0]
+addSignal -h 15 -holdScope weight_addr_send_start
+addSignal -h 15 -holdScope weight_addr_send_cnt[3:0]
+addSignal -h 15 -holdScope weight_addr_send_done
+addSignal -h 15 -holdScope weight_data_rcpt_done
+addSignal -h 15 -holdScope weight_data_rcpt_cnt[3:0]
+addSignal -h 15 -holdScope cur_weight_00[31:0]
+addSignal -h 15 -holdScope cur_weight_01[31:0]
+addSignal -h 15 -holdScope cur_weight_02[31:0]
+addSignal -h 15 -holdScope cur_weight_03[31:0]
+addSignal -h 15 -holdScope cur_weight_10[31:0]
+addSignal -h 15 -holdScope cur_weight_11[31:0]
+addSignal -h 15 -holdScope cur_weight_12[31:0]
+addSignal -h 15 -holdScope cur_weight_13[31:0]
+addSignal -h 15 -holdScope cur_weight_20[31:0]
+addSignal -h 15 -holdScope cur_weight_21[31:0]
+addSignal -h 15 -holdScope cur_weight_22[31:0]
+addSignal -h 15 -holdScope cur_weight_23[31:0]
+addSignal -h 15 -holdScope cur_weight_30[31:0]
+addSignal -h 15 -holdScope cur_weight_31[31:0]
+addSignal -h 15 -holdScope cur_weight_32[31:0]
+addSignal -h 15 -holdScope cur_weight_33[31:0]
+addSignal -h 15 -holdScope in_weight_0[31:0]
+addSignal -h 15 -holdScope in_weight_1[31:0]
+addSignal -h 15 -holdScope in_weight_2[31:0]
+addSignal -h 15 -holdScope in_weight_3[31:0]
+addGroup "G3"
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/current_state[2:0]
+addSignal -h 15 -holdScope image_addr_send_cnt[3:0]
+addSignal -h 15 -holdScope image_addr_send_start
+addSignal -h 15 -holdScope image_addr_send_done
+addSignal -h 15 -holdScope image_addr_next[31:0]
+addSignal -h 15 -holdScope image_data_rcpt_done
+addSignal -h 15 -holdScope image_data_rcpt_cnt[3:0]
+addSignal -h 15 -holdScope image_data_00[31:0]
+addSignal -h 15 -holdScope image_data_01[31:0]
+addSignal -h 15 -holdScope image_data_02[31:0]
+addSignal -h 15 -holdScope image_data_03[31:0]
+addSignal -h 15 -holdScope image_data_10[31:0]
+addSignal -h 15 -holdScope image_data_11[31:0]
+addSignal -h 15 -holdScope image_data_12[31:0]
+addSignal -h 15 -holdScope image_data_13[31:0]
+addSignal -h 15 -holdScope image_data_20[31:0]
+addSignal -h 15 -holdScope image_data_21[31:0]
+addSignal -h 15 -holdScope image_data_22[31:0]
+addSignal -h 15 -holdScope image_data_23[31:0]
+addSignal -h 15 -holdScope image_data_30[31:0]
+addSignal -h 15 -holdScope image_data_31[31:0]
+addSignal -h 15 -holdScope image_data_32[31:0]
+addSignal -h 15 -holdScope image_data_33[31:0]
+addSignal -h 15 -holdScope in_data_0[31:0]
+addSignal -h 15 -holdScope in_data_1[31:0]
+addSignal -h 15 -holdScope in_data_2[31:0]
+addSignal -h 15 -holdScope in_data_3[31:0]
+addSignal -h 15 -holdScope current_state[2:0]
+addSignal -h 15 -holdScope image_addr_send_cnt[3:0]
+addSignal -h 15 -holdScope image_addr_send_start
+addSignal -h 15 -holdScope image_addr_send_done
+addSignal -h 15 -holdScope image_addr_next[31:0]
+addSignal -h 15 -holdScope image_data_rcpt_done
+addSignal -h 15 -holdScope image_data_rcpt_cnt[3:0]
+addSignal -h 15 -holdScope image_data_00[31:0]
+addSignal -h 15 -holdScope image_data_01[31:0]
+addSignal -h 15 -holdScope image_data_02[31:0]
+addSignal -h 15 -holdScope image_data_03[31:0]
+addSignal -h 15 -holdScope image_data_10[31:0]
+addSignal -h 15 -holdScope image_data_11[31:0]
+addSignal -h 15 -holdScope image_data_12[31:0]
+addSignal -h 15 -holdScope image_data_13[31:0]
+addSignal -h 15 -holdScope image_data_20[31:0]
+addSignal -h 15 -holdScope image_data_21[31:0]
+addSignal -h 15 -holdScope image_data_22[31:0]
+addSignal -h 15 -holdScope image_data_23[31:0]
+addSignal -h 15 -holdScope image_data_30[31:0]
+addSignal -h 15 -holdScope image_data_31[31:0]
+addSignal -h 15 -holdScope image_data_32[31:0]
+addSignal -h 15 -holdScope image_data_33[31:0]
+addSignal -h 15 -holdScope in_data_0[31:0]
+addSignal -h 15 -holdScope in_data_1[31:0]
+addSignal -h 15 -holdScope in_data_2[31:0]
+addSignal -h 15 -holdScope in_data_3[31:0]
+addSignal -h 15 -holdScope current_state[2:0]
+addSignal -h 15 -holdScope image_addr_send_cnt[3:0]
+addSignal -h 15 -holdScope image_addr_send_start
+addSignal -h 15 -holdScope image_addr_send_done
+addSignal -h 15 -holdScope image_addr_next[31:0]
+addSignal -h 15 -holdScope image_data_rcpt_done
+addSignal -h 15 -holdScope image_data_rcpt_cnt[3:0]
+addSignal -h 15 -holdScope image_data_00[31:0]
+addSignal -h 15 -holdScope image_data_01[31:0]
+addSignal -h 15 -holdScope image_data_02[31:0]
+addSignal -h 15 -holdScope image_data_03[31:0]
+addSignal -h 15 -holdScope image_data_10[31:0]
+addSignal -h 15 -holdScope image_data_11[31:0]
+addSignal -h 15 -holdScope image_data_12[31:0]
+addSignal -h 15 -holdScope image_data_13[31:0]
+addSignal -h 15 -holdScope image_data_20[31:0]
+addSignal -h 15 -holdScope image_data_21[31:0]
+addSignal -h 15 -holdScope image_data_22[31:0]
+addSignal -h 15 -holdScope image_data_23[31:0]
+addSignal -h 15 -holdScope image_data_30[31:0]
+addSignal -h 15 -holdScope image_data_31[31:0]
+addSignal -h 15 -holdScope image_data_32[31:0]
+addSignal -h 15 -holdScope image_data_33[31:0]
+addSignal -h 15 -holdScope in_data_0[31:0]
+addSignal -h 15 -holdScope in_data_1[31:0]
+addSignal -h 15 -holdScope in_data_2[31:0]
+addSignal -h 15 -holdScope in_data_3[31:0]
+addSignal -h 15 -holdScope current_state[2:0]
+addSignal -h 15 -holdScope image_addr_send_cnt[3:0]
+addSignal -h 15 -holdScope image_addr_send_start
+addSignal -h 15 -holdScope image_addr_send_done
+addSignal -h 15 -holdScope image_addr_next[31:0]
+addSignal -h 15 -holdScope image_data_rcpt_done
+addSignal -h 15 -holdScope image_data_rcpt_cnt[3:0]
+addSignal -h 15 -holdScope image_data_00[31:0]
+addSignal -h 15 -holdScope image_data_01[31:0]
+addSignal -h 15 -holdScope image_data_02[31:0]
+addSignal -h 15 -holdScope image_data_03[31:0]
+addSignal -h 15 -holdScope image_data_10[31:0]
+addSignal -h 15 -holdScope image_data_11[31:0]
+addSignal -h 15 -holdScope image_data_12[31:0]
+addSignal -h 15 -holdScope image_data_13[31:0]
+addSignal -h 15 -holdScope image_data_20[31:0]
+addSignal -h 15 -holdScope image_data_21[31:0]
+addSignal -h 15 -holdScope image_data_22[31:0]
+addSignal -h 15 -holdScope image_data_23[31:0]
+addSignal -h 15 -holdScope image_data_30[31:0]
+addSignal -h 15 -holdScope image_data_31[31:0]
+addSignal -h 15 -holdScope image_data_32[31:0]
+addSignal -h 15 -holdScope image_data_33[31:0]
+addSignal -h 15 -holdScope in_data_0[31:0]
+addSignal -h 15 -holdScope in_data_1[31:0]
+addSignal -h 15 -holdScope in_data_2[31:0]
+addSignal -h 15 -holdScope in_data_3[31:0]
+addGroup "G4"
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/clk
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 -holdScope current_state[2:0]
+addSignal -h 15 -holdScope next_state[2:0]
+addSignal -h 15 -holdScope mode[1:0]
+addSignal -h 15 -holdScope compute_cnt[3:0]
+addSignal -h 15 -holdScope clk
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 -holdScope current_state[2:0]
+addSignal -h 15 -holdScope next_state[2:0]
+addSignal -h 15 -holdScope mode[1:0]
+addSignal -h 15 -holdScope compute_cnt[3:0]
+addSignal -h 15 -holdScope clk
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 -holdScope current_state[2:0]
+addSignal -h 15 -holdScope next_state[2:0]
+addSignal -h 15 -holdScope mode[1:0]
+addSignal -h 15 -holdScope compute_cnt[3:0]
+addSignal -h 15 -holdScope clk
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 -holdScope current_state[2:0]
+addSignal -h 15 -holdScope next_state[2:0]
+addSignal -h 15 -holdScope mode[1:0]
+addSignal -h 15 -holdScope compute_cnt[3:0]
+addGroup "G5"
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/u_pe_array/clk
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 -holdScope weight0_in[31:0]
+addSignal -h 15 -holdScope weight1_in[31:0]
+addSignal -h 15 -holdScope weight2_in[31:0]
+addSignal -h 15 -holdScope weight3_in[31:0]
+addSignal -h 15 -holdScope data0_in[31:0]
+addSignal -h 15 -holdScope data1_in[31:0]
+addSignal -h 15 -holdScope data2_in[31:0]
+addSignal -h 15 -holdScope data3_in[31:0]
+addSignal -h 15 -holdScope result_00[31:0]
+addSignal -h 15 -holdScope result_01[31:0]
+addSignal -h 15 -holdScope result_02[31:0]
+addSignal -h 15 -holdScope result_03[31:0]
+addSignal -h 15 -holdScope result_10[31:0]
+addSignal -h 15 -holdScope result_11[31:0]
+addSignal -h 15 -holdScope result_12[31:0]
+addSignal -h 15 -holdScope result_13[31:0]
+addSignal -h 15 -holdScope result_20[31:0]
+addSignal -h 15 -holdScope result_21[31:0]
+addSignal -h 15 -holdScope result_22[31:0]
+addSignal -h 15 -holdScope result_23[31:0]
+addSignal -h 15 -holdScope result_30[31:0]
+addSignal -h 15 -holdScope result_31[31:0]
+addSignal -h 15 -holdScope result_32[31:0]
+addSignal -h 15 -holdScope result_33[31:0]
+addSignal -h 15 -holdScope mode[1:0]
+addSignal -h 15 -holdScope clk
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 -holdScope weight0_in[31:0]
+addSignal -h 15 -holdScope weight1_in[31:0]
+addSignal -h 15 -holdScope weight2_in[31:0]
+addSignal -h 15 -holdScope weight3_in[31:0]
+addSignal -h 15 -holdScope data0_in[31:0]
+addSignal -h 15 -holdScope data1_in[31:0]
+addSignal -h 15 -holdScope data2_in[31:0]
+addSignal -h 15 -holdScope data3_in[31:0]
+addSignal -h 15 -holdScope result_00[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/gelu_00[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/u_pe_array/result_01[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/gelu_01[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/u_pe_array/result_02[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/gelu_02[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/u_pe_array/result_03[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/gelu_03[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/u_pe_array/result_10[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/gelu_10[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/u_pe_array/result_11[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/gelu_11[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/u_pe_array/result_12[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/gelu_12[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/u_pe_array/result_13[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/gelu_13[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/u_pe_array/result_20[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/gelu_20[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/u_pe_array/result_21[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/gelu_21[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/u_pe_array/result_22[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/gelu_22[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/u_pe_array/result_23[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/gelu_23[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/u_pe_array/result_30[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/gelu_30[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/u_pe_array/result_31[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/gelu_31[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/u_pe_array/result_32[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/gelu_32[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/u_pe_array/result_33[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/gelu_33[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/u_pe_array/mode[1:0]
+addSignal -h 15 -holdScope cur_weight_10[31:0]
+addSignal -h 15 -holdScope cur_weight_11[31:0]
+addSignal -h 15 -holdScope cur_weight_12[31:0]
+addSignal -h 15 -holdScope cur_weight_13[31:0]
+addSignal -h 15 -holdScope cur_weight_20[31:0]
+addSignal -h 15 -holdScope cur_weight_21[31:0]
+addSignal -h 15 -holdScope cur_weight_22[31:0]
+addSignal -h 15 -holdScope cur_weight_23[31:0]
+addSignal -h 15 -holdScope cur_weight_30[31:0]
+addSignal -h 15 -holdScope cur_weight_31[31:0]
+addSignal -h 15 -holdScope cur_weight_32[31:0]
+addSignal -h 15 -holdScope cur_weight_33[31:0]
+addSignal -h 15 -holdScope image_data_11[31:0]
+addSignal -h 15 -holdScope image_data_12[31:0]
+addSignal -h 15 -holdScope image_data_13[31:0]
+addSignal -h 15 -holdScope image_data_21[31:0]
+addSignal -h 15 -holdScope image_data_22[31:0]
+addSignal -h 15 -holdScope image_data_23[31:0]
+addSignal -h 15 -holdScope image_data_31[31:0]
+addSignal -h 15 -holdScope image_data_32[31:0]
+addSignal -h 15 -holdScope image_data_33[31:0]
+addGroup "G6"
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/u_pe_array/pe00/clk
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/u_pe_array/clk
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/u_pe_array/pe00/rst_n
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/u_pe_array/rst_n
+addSignal -h 15 -holdScope data0_in[31:0]
+addSignal -h 15 -holdScope weight0_in[31:0]
+addSignal -h 15 -holdScope result_00[31:0]
+addSignal -h 15 -holdScope cur_weight_10[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/u_pe_array/pe00/mode[1:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/u_pe_array/mode[1:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/u_pe_array/pe00/data1[31:0]
+addSignal -h 15 -holdScope data0[31:0]
+addSignal -h 15 -holdScope weight1[31:0]
+addSignal -h 15 -holdScope weight0[31:0]
+addSignal -h 15 -holdScope data_in[31:16]
+addSignal -h 15 -holdScope data_in[15:0]
+addSignal -h 15 -holdScope weight_in[31:16]
+addSignal -h 15 -holdScope weight_in[15:0]
+addSignal -h 15 -holdScope clk
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/u_pe_array/clk
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/u_pe_array/pe00/rst_n
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/u_pe_array/rst_n
+addSignal -h 15 -holdScope data0_in[31:0]
+addSignal -h 15 -holdScope weight0_in[31:0]
+addSignal -h 15 -holdScope result_00[31:0]
+addSignal -h 15 -holdScope cur_weight_10[31:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/u_pe_array/pe00/mode[1:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/u_pe_array/mode[1:0]
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/u_pe_array/pe00/data1[31:0]
+addSignal -h 15 -holdScope data0[31:0]
+addSignal -h 15 -holdScope weight1[31:0]
+addSignal -h 15 -holdScope weight0[31:0]
+addSignal -h 15 -holdScope data_in[31:16]
+addSignal -h 15 -holdScope data_in[15:0]
+addSignal -h 15 -holdScope weight_in[31:16]
+addSignal -h 15 -holdScope weight_in[15:0]
+addGroup "G7"
+addSignal -h 15 /tb_top/u_e203_soc_top/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/i_cnn/cnn_core/clk
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 -holdScope cnn_icb_cmd_valid
+addSignal -h 15 -holdScope cnn_icb_cmd_ready
+addSignal -h 15 -holdScope cnn_icb_cmd_addr[31:0]
+addSignal -h 15 -holdScope cnn_icb_cmd_read
+addSignal -h 15 -holdScope cnn_icb_cmd_wdata[31:0]
+addSignal -h 15 -holdScope cnn_icb_cmd_wmask[3:0]
+addSignal -h 15 -holdScope cnn_icb_rsp_valid
+addSignal -h 15 -holdScope cnn_icb_rsp_ready
+addSignal -h 15 -holdScope cnn_icb_rsp_rdata[31:0]
+addSignal -h 15 -holdScope current_state[2:0]
+addSignal -h 15 -holdScope store_data_send_start
+addSignal -h 15 -holdScope store_data_send_done
+addSignal -h 15 -holdScope send_update_control
+addSignal -h 15 -holdScope store_data_send_cnt[4:0]
+addSignal -h 15 -holdScope store_rsp_rcpt_cnt[4:0]
+addSignal -h 15 -holdScope store_done
+addSignal -h 15 -holdScope store_data_addr_next[31:0]
+addSignal -h 15 -holdScope store_data_send_next[31:0]
+addSignal -h 15 -holdScope store_data_send_next_cnt[3:0]
+addGroup "G8"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+
