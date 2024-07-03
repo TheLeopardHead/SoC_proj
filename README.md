@@ -1,0 +1,4 @@
+# Update 3/7/2024
+sw文件夹下添加了test_gelu.py文件，可以用来测试矩阵乘+GELU操作的功能正确性。主要比较了FP32做矩阵乘+GELU和INT16（定点数，8位整数8位小数）做矩阵乘+GELU的精度差异，这版代码目前是将FP32转成16位定点数，其中8位整数8位小数，来实现后续的定点数矩阵乘+GELU的。
+
+e203_hbirdv2-master文件夹下是所有硬件代码，其中tb_top.v按照test_gelu.py提供的测试pattern写入了相应的weight和image data，GELU操作的实现都在CNN_core.v文件中，使用纯组合逻辑实现，对于4x4脉动阵列的16个输出，分别使用查找表以及RELU逻辑实现GELU，最终将GELU的结果从总线输出。
